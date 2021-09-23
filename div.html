@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DIV</title>
+    <style>
+    body{
+        background-color:white;
+    }
+    #div
+    {
+border: 2px solid black
+    }
+    </style>
+     </head>
+    <body>
+     <canvas id="div" width="1500" height="700"></canvas>
+    </body>
+    </html>
+
+   <script>
+
+   const canvas = document.getElementById("div");
+   const ctx = canvas.getContext('2d');
+
+ function render()
+{
+    ctx.fillStyle ="red";
+    ctx.fillRect(0, 650, 50, 50); 
+
+    ctx.fillStyle ="white";
+    ctx.fillRect(0, 650/2, 50, 50);
+
+    ctx.fillStyle ="red";
+    ctx.fillRect(0, 0, 50, 50);
+
+    ctx.fillStyle ="white";
+    ctx.fillRect(1500/2, 0, 50, 50);
+     
+    ctx.fillStyle ="red";
+    ctx.fillRect(1450, 0, 50, 50);
+
+
+    ctx.fillStyle ="white";
+    ctx.fillRect(1450, 650/2, 50, 50);
+
+    ctx.fillStyle ="red";
+    ctx.fillRect(1450, 650, 50, 50);
+
+ }
+ function move(){
+    render();
+ }
+let framePerSecond = 50;
+ let loop = setInterval(move,1000/framePerSecond);
+
+ </script>

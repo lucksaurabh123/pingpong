@@ -1,0 +1,96 @@
+body{
+	background-color: rgb(14, 226, 241);
+	background-size:cover;
+
+ }
+.box00
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
+	color:white;
+    text-align: center;
+
+}
+.box0
+{
+	margin-left: 42.5em;
+}
+.butt{
+	height: 50px;
+	width:200px;
+	font-size:25px;
+	color:white;
+	background-color: transparent;
+	animation:bchange 1s infinite alternate;
+}
+.box10
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+	color:white;	
+	text-align: center;
+
+}
+.box20
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 20px;
+	color:white;	
+    text-align: center;
+
+}
+.box11
+{
+width: 400px;
+margin-left:25em;
+color: ivory;
+border:2px solid white;
+padding: 10%;
+padding-top: 2%;
+}
+.box11 input{
+	width:350px;
+	height:30px;
+}
+.box21
+{
+width: 400px;
+height:250px;
+margin-left:35em;
+border:2px solid white;
+color: ivory;
+padding-top: 20px;
+padding-left:10px;
+}
+.box21 input{
+	margin-left:50px ;
+	width:300px;
+	height:30px;
+}
+.box21 button{
+	margin-top:50px;
+	margin-left:200px;
+	color:white;
+	width:150px;
+	height:40px;
+	background-color:transparent;
+	animation:bchange 1s infinite alternate;
+}
+.sub{
+	height:50px;
+	color:white;
+	background-color: transparent;
+	animation:bchange 1s infinite alternate;
+}
+@keyframes bchange{
+	from{border-radius:0px;}
+	to{border-radius:20px;}
+}
+
+
+
+
+
+
+
+
